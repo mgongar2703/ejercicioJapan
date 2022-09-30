@@ -53,7 +53,7 @@ include './includes/random_image.php'; ?>
 </html>
 <?php } catch (Exception $e) {
     ob_end_clean();
-    header('Location: http://localhost/php8sols/error.php');
+    header('Location: ./error.php');
 }
 ob_end_flush();
 ?>
